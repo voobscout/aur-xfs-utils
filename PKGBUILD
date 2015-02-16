@@ -9,6 +9,7 @@ arch=('i686' 'x86_64')
 url="https://github.com/voobscout/aur-xfs-utils"
 license=('GPL2')
 # groups=()
+# TODO: Find out how to uninstall all of the dependancies together with metapackage!
 depends=('xorg-xfs'
          'xorg-xfstt'
          'xorg-xfs-xfsinfo'
